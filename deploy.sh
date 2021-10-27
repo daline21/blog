@@ -8,7 +8,9 @@ rm -rf docs/img
 rm -rf docs/*.html
 
 # 生成静态文件
+cp  docs/.vuepress/README.md docs/
 yarn run build
+rm -f docs/README.md
 
 # 进入生成的文件夹
-mv docs/.vuepress/dist/* html/
+mv docs/.vuepress/dist/* docs/
