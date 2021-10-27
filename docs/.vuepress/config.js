@@ -12,11 +12,10 @@ module.exports = {
         logo: '/img/logo.png',
         nav: [  //导航栏
             { text: '首页', link: '/' },
-            { text: 'Java', link: '/js_docs/' },
-            { text: 'Spring', link: '/vue_docs/' },
-            { text: 'Docker', link: '/css_docs/' },
-            { text: 'Python', link: '/react_docs/' },
-            { text: '算法', link: '/react_docs/' },
+            { text: 'JS', link: '/js_docs/' },
+            { text: 'CSS', link: '/css_docs/' },
+            { text: 'Vue', link: '/vue_docs/' },
+            { text: 'React', link: '/react_docs/' },
             {
                 text: '2020',
                 ariLabel: '2020',
