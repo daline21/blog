@@ -7,5 +7,5 @@ set -e
 yarn run build
 
 # 进入生成的文件夹
-rm -rf docs/[^.]*
-cp docs/.vuepress/dist/* docs
+#rm -rf docs/[^.]*
+mv docs/.vuepress/dist/* docs
