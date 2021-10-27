@@ -11,4 +11,4 @@ rm -rf docs/*.html
 yarn run build
 
 # 进入生成的文件夹
-mv docs/.vuepress/dist/* docs
+mv docs/.vuepress/dist/* html/
