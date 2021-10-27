@@ -1,7 +1,7 @@
 module.exports = {
-    title: 'Davis的个人博客',  //标题
+    title: '萌王的个人博客',  //标题
     keywords: 'Java开发',
-    description: 'Java开发 Davis的个人博客',
+    description: 'Java开发 萌王的个人博客',
     repo: 'https://github.com/daline21/blog.git',  //仓库地址
     base: '/blog/',  // 配合部署项目
     head: [
@@ -12,10 +12,11 @@ module.exports = {
         logo: '/img/logo.png',
         nav: [  //导航栏
             { text: '首页', link: '/' },
-            { text: 'JS', link: '/js_docs/' },
-            { text: 'CSS', link: '/css_docs/' },
-            { text: 'Vue', link: '/vue_docs/' },
-            { text: 'React', link: '/react_docs/' },
+            { text: 'Java', link: '/js_docs/' },
+            { text: 'Spring', link: '/vue_docs/' },
+            { text: 'Docker', link: '/css_docs/' },
+            { text: 'Python', link: '/react_docs/' },
+            { text: '算法', link: '/react_docs/' },
             {
                 text: '2020',
                 ariLabel: '2020',
