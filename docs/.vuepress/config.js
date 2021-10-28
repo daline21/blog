@@ -12,10 +12,10 @@ module.exports = {
         logo: '/img/logo.png',
         nav: [  //导航栏
             { text: '首页', link: '/' },
-            { text: 'JS', link: '/js_docs/' },
-            { text: 'CSS', link: '/css_docs/' },
-            { text: 'Vue', link: '/vue_docs/' },
-            { text: 'React', link: '/react_docs/' },
+            { text: 'Java', link: '/java_docs/' },
+            { text: 'Spring', link: '/spring_docs/' },
+            { text: '环境部署', link: '/env_docs/' },
+            { text: '算法题', link: '/algorithm_docs/' },
             {
                 text: '2020',
                 ariLabel: '2020',
@@ -27,7 +27,7 @@ module.exports = {
             { text: 'github', link: 'https://github.com/daline21/blog.git' }
         ],
         sidebar: {  //侧边拦
-            '/2020/': [
+            '/2021/': [
                 ['/2020/5/', '5月份'],
                 ['/2020/6/', '6月份']
             ]
